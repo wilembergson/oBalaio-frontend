@@ -10,6 +10,7 @@ function Basket(props) {
     var it = props.item
     setItem(it)
 
+    //Teste
     useEffect(() => {
         cesta.push(item)
     }, [item])
