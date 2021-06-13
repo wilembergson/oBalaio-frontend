@@ -1,0 +1,35 @@
+.paginaGeral{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    align-content: center;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.paginaLista{
+    color: #fff;
+    margin-left: 1px;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgb(52, 54, 54);
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 19px;
+}
+
+.paginaDetalhe{
+    color: #fff;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgb(52, 54, 54);
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 19px;
+}
+.tLinha:hover{
+    background-color: rgb(73, 83, 83);
+}

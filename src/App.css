@@ -1,0 +1,36 @@
+html,body{
+  width: 100%;
+  height:100%;
+}
+
+.App{
+  height: auto;
+  background-color: rgb(59, 59, 58);
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 
+      102px
+      1fr
+      20px;
+  grid-template-areas: 
+      "logoT"
+      "dadosT"
+      "footerT";
+  min-height: 100vh;
+}
+
+aside.navbar{
+grid-area: logoT;
+}
+
+aside.basket{
+  grid-area: basketT;
+}
+
+aside.dados{
+grid-area: dadosT;
+}
+
+aside.footer{
+grid-area: footerT;
+}

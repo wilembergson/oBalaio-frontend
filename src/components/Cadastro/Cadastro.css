@@ -1,0 +1,82 @@
+.formulario{
+    color: #fff;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgb(52, 54, 54);
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 19px;
+}
+h1{
+    margin-left: 35px;
+}
+hr{
+    width: auto;
+}
+.cadastro{
+    display: flex;
+    flex-direction: row;
+}
+.cadastro-campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
+    width: 100%;
+}
+
+
+.cadastro-campo label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.cadastro-campo input{
+    border: #fff;
+    border-radius: 8px;
+    color: #000;
+    background-color: #fff;
+    height: 36px;
+}
+
+.tt{
+    color: #fff;
+    margin-top: 25px;
+}
+
+.sss{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.bt-salvar{
+    color: #fff;
+    background-color:  rgb(53, 196, 61);
+    border-radius: 10px;
+    height: 50px;
+    margin-left: 35px;
+}
+.bt-salvar:hover {
+    background-color: rgb(29, 141, 19);
+  }
+
+.btn{
+      width: auto;
+      margin-left: 18px;
+      margin-top: 5px;
+      margin-bottom: 3px;
+  }
+
+.tLinha:hover{
+    background-color: rgb(73, 83, 83);
+}
+.botaoBox{
+    width: 160px;
+}

@@ -1,0 +1,44 @@
+.principal{
+    color: #fff;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(52, 54, 54);
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 19px;
+    text-align: center;
+    overflow: auto;
+}
+
+.cima{
+    font-size: 50px;
+    background-color: rgb(39, 38, 38);
+    height: 80px;
+}
+
+.menssagem{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.botao{
+    color: #fff;
+    font-size: 30px;
+    background-color: rgb(53, 196, 61);
+    height: 70px;
+    width: auto;
+    border-radius: 15px;
+    transition: transform 1s ease;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 7px;
+}
+
+.botao:hover{
+    background-color: rgb(29, 141, 19);
+    transform: scale(1.4);
+   transition: transform 1s ease;
+}
+

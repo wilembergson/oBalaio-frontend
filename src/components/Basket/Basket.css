@@ -1,0 +1,18 @@
+.basket {
+    width: 100%;
+    min-height: 100vh;
+    box-shadow: 5px 5px 5px black;
+}
+
+.tnome {
+    font-size: 17px;
+    padding: 15px;
+    color: antiquewhite;
+}
+
+.tComprar {
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(100, 206, 255);
+    box-shadow: 1px 1px 1px black;
+}

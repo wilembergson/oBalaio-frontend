@@ -1,0 +1,20 @@
+.card{
+    width: 250px;
+    height: 300px;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    background-color: rgb(52, 54, 54);
+}
+.card:hover{
+    box-shadow: 5px 5px 10px black;
+}
+
+.label{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+button{
+    width: 150px;
+    align-self: center;
+}

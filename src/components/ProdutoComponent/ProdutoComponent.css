@@ -1,0 +1,47 @@
+h4, td, tr {
+    color: aliceblue;
+}
+
+.dados {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-template-areas: "basket" "tabela";
+}
+
+aside.basket {
+    grid-area: basket;
+}
+
+aside.tabela {
+    grid-area: tabela;
+}
+
+
+.produtoss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.btn2{
+    width: 25px;
+}
+.btnConfirm{
+    width: auto;
+    margin-left: 6px;
+    font-size: 15px;
+}
+.tComprar{
+   background-color: rgb(43, 40, 40); 
+   margin-right: 7px;
+}
+.total{
+    text-size-adjust: 30px;
+    color: rgb(6, 243, 37);
+    margin-right: 35px;
+}
+
+.tnome{
+    background-color: rgb(43, 40, 40);
+}
