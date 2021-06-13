@@ -5,6 +5,7 @@ import { FaListAlt } from 'react-icons/fa'
 import { FaTasks } from 'react-icons/fa'
 import { ImHome3 } from 'react-icons/im'
 import Logo from '../../img/logo.png'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
     return (
@@ -20,7 +21,9 @@ function NavBar() {
                             <a className="nav-link" aria-current="page" href="/"><ImHome3/> Home</a>
                         </li>
                         <li className="nav-item">
+                        <Link to="/comprar">
                             <a className="nav-link" aria-current="page" href="/comprar"><MdShoppingCart/> Comprar</a>
+                        </Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/confirmacao"><FaListAlt/> Cadastro</a>
