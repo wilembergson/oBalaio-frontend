@@ -1,4 +1,6 @@
 # Sistema gráfico de vendas
+Sistema em produção: https://obalaio.netlify.app/
+
 
 ##  :page_facing_up: Descrição do Projeto
 <p align="left">Sistema de cadastro de produtos onde também é possível
@@ -7,7 +9,6 @@ pedidos realizados. Os dados demoram alguns segundos para serem carregado
 quando é feito o primeiro acesso.</p>
 
 ## 🛠 Tecnologias utilizadas 
-
 As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Frontend
