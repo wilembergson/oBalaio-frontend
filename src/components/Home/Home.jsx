@@ -16,7 +16,7 @@ function Home(){
 
             
             <Link to="/comprar">
-                <button className="botao"><FaArrowAltCircleRight/> Começar</button>
+                <button className="botao" onClick={()=> alert("AGUARDE! Os dados demoram alguns segundos para serem carregados.")}><FaArrowAltCircleRight/> Começar</button>
             </Link>
         </div>
     )
