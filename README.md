@@ -1,4 +1,4 @@
-# Sistema gráfico de vendas
+# oBalaio
 Sistema em produção: https://obalaio.netlify.app/
 
 
