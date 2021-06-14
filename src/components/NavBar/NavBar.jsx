@@ -21,9 +21,7 @@ function NavBar() {
                             <a className="nav-link" aria-current="page" href="/"><ImHome3/> Home</a>
                         </li>
                         <li className="nav-item">
-                        <Link to="/comprar">
                             <a className="nav-link" aria-current="page" href="/comprar"><MdShoppingCart/> Comprar</a>
-                        </Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/confirmacao"><FaListAlt/> Cadastro</a>
